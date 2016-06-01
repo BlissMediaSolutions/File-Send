@@ -9,14 +9,15 @@ A simple Java program which Ecrypts a file with AES 128bit, then transfers it ov
 
 ##### To Run This Project:
 First start up the Server (receiver / listener) end from the Command line via;   
-`java FileStorer xxxx` where xxxx is the Port Number   
+```java FileStorer xxxx``` where *`xxxx`* is the Port Number   
 Then start up the client (sender) from the command line & specify the file to encrypt/transfer, the IP of the Server & the Port the Server is listening on;    
-`java SendFile aaa.jpg 192.168.0.0 xxxx` where aaa.jpg is the file to send, 192.168.0.0 is the IP address of the Server, and xxxx is the Port the Server is listening on 
+`java SendFile aaa.jpg 192.168.0.0 xxxx` where *`aaa.jpg`* is the file to send, *`192.168.0.0`* is the IP address of the Server, and *`xxxx`* is the Port the Server is listening on 
 
 ##### Authors:
 Danielle Walker
 
 ##### Additional Notes:
-Developed / compiled for Java SE Runtime 1.8.0.77   
-Package is for the BlueJ IDE   
-AES Encryption uses a predefined 16byte Key specified in the Code.
+- Developed / compiled for Java SE Runtime 1.8.0.77   
+- Package is for the BlueJ IDE   
+- AES Encryption uses a predefined 16byte Key specified in the Code.
+- Due to Java VM Memory limits, it will transfer a max file size of approx 50MB (most likely less than 50MB though)
