@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=host\ port\ file
+comment0.target=SendFile(java.lang.String,\ int,\ java.lang.String)
+comment1.params=filename
+comment1.target=long\ getFileSize(java.lang.String)
+comment2.params=file
+comment2.target=void\ sendFile(java.lang.String)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

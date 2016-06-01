@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CryptoException()
+comment1.params=message\ throwable
+comment1.target=CryptoException(java.lang.String,\ java.lang.Throwable)
+numComments=2
